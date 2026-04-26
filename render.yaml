@@ -1,0 +1,1 @@
+services:\n  web:\n    type: web\n    env: node\n    plan: starter\n    buildCommand: npm install\n    startCommand: node index.js\n    use: my-repo-url\n    wanted: my-app-name
